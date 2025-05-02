@@ -1,25 +1,22 @@
-# 🌱 vanilla-gsap Branch — Description
+# 📄 Branch: vite-gsap
+This branch sets up a modern development environment using Vite with support for GSAP animations. It’s designed for fast builds, instant hot module replacement (HMR), and modular component-based structure — perfect for scalable animation projects.
 
-This branch focuses on learning **GSAP (GreenSock Animation Platform)** using only *HTML, CSS, and vanilla JavaScript* — no frameworks, no build tools, and no bundlers.
+# ✅ Features:
+⚡️ Super-fast bundling and dev server via Vite
+🎞 Smooth animations with GSAP (GreenSock)
+🔁 Hot Module Reload (HMR) support
+📁 Clean project structure for reusable components
+📦 Easy integration with frameworks like React or Vue later
 
-The goal is to understand how GSAP works at its core, interacting directly with the DOM and building animations from scratch.
-
-# 🔧 What You'll Learn Here:
+# 🔧 Tech Stack:
 <ul>
-<li>Installing GSAP via CDN</li>
-<li>Creating basic animations with .to(), .from(), and .fromTo()
-<li>Understanding timelines with gsap.timeline()
-<li>Using easing functions and delays
-<li>Adding scroll-triggered animations (with ScrollTrigger plugin)
-<li>Controlling animations (play, pause, reverse, restart)
-<li>Building micro-interactions and scroll effects
+Vite
+GSAP 3+
+ShadCN
+Zod Resolver
 </ul>
 
-📁 Recommended Folder Structure:
-```bash pgsql
-vanilla-gsap/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
+📌 Usage:
+```bash
+npm install
+npm run dev
