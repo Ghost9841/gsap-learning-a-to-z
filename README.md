@@ -1,15 +1,25 @@
-# 🏷️ Main Branch — Description
+# 🌱 vanilla-gsap Branch — Description
 
-This is the **primary branch** of the GSAP Learning Repo. It serves as the central hub and organizational guide for all GSAP experiments and learning modules.
+This branch focuses on learning **GSAP (GreenSock Animation Platform)** using only *HTML, CSS, and vanilla JavaScript* — no frameworks, no build tools, and no bundlers.
 
-❗️**Note**: *No direct development is done on this branch.*
+The goal is to understand how GSAP works at its core, interacting directly with the DOM and building animations from scratch.
 
-# 🔀 Branches Overview:
-`vanilla-gsap` – Learning GSAP using only HTML, CSS, and plain JavaScript.
+# 🔧 What You'll Learn Here:
+<ul>
+<li>Installing GSAP via CDN</li>
+<li>Creating basic animations with .to(), .from(), and .fromTo()
+<li>Understanding timelines with gsap.timeline()
+<li>Using easing functions and delays
+<li>Adding scroll-triggered animations (with ScrollTrigger plugin)
+<li>Controlling animations (play, pause, reverse, restart)
+<li>Building micro-interactions and scroll effects
+</ul>
 
-`react-gsap` – Exploring GSAP in a React.js setup.
-
-`nextjs-gsap` – Animating with GSAP in a Next.js (React + SSR/CSR) environment.
-
-Each branch contains its own README, examples, and progress notes.
-This repo is structured to encourage modular, hands-on learning, one environment at a time.
+📁 Recommended Folder Structure:
+```bash pgsql
+vanilla-gsap/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
