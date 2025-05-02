@@ -10,10 +10,10 @@ This branch sets up a modern development environment using Vite with support for
 
 # 🔧 Tech Stack:
 <ul>
-Vite
-GSAP 3+
-ShadCN
-Zod Resolver
+<li>Vite </li>
+<li>GSAP 3+ </li>
+<li>ShadCN </li>
+<li>Zod Resolver </li>
 </ul>
 
 📌 Usage:
