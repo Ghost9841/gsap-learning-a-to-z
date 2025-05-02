@@ -36,7 +36,7 @@ nav a {
     border-radius: 8px;
     padding: 2rem;
     text-align: center;
-    margin-top : 200px
+    margin-top : 1px
  }
 .welcome-box h2{
     font-size: 4rem;
@@ -73,4 +73,34 @@ nav a {
     border-color: white;
     background-color:white;
     border-radius : 10px;
+}
+.red-box{
+    display: block;
+    min-height:7vh;
+    width: 70px;
+    border: 1;
+    border-color: white;
+    background-color:red;
+    border-radius : 10px;
+    margin: 0.5rem;
+}
+.green-box{
+    display: block;
+    min-height:7vh;
+    width: 70px;
+    border: 1;
+    border-color: white;
+    background-color:green;
+    border-radius : 10px;
+    margin: 0.5rem;
+}
+.purple-box{
+    display: block;
+    min-height:7vh;
+    width: 70px;
+    border: 1;
+    border-color: white;
+    background-color:purple;
+    border-radius : 10px;
+    margin: 0.5rem;
 }

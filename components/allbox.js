@@ -13,3 +13,38 @@ gsap.to(".user-name", {
     repeatDelay: 2,
     duration: 2,
 })
+
+gsap.to(".red-box", {
+    x:"175vh",
+    duration:2,
+    rotation: 360,
+    opacity:0,
+    yoyo: true,
+    repeat: 2
+})
+
+gsap.to(".green-box", {
+    x:'100vh',
+    rotation: 360,
+    duration: 2,
+    delay: 2,
+    opacity: 0
+})
+gsap.to('.red-box', {
+    duration:2.5,
+    ease: "power1.out",
+    x: "400%"
+    });
+gsap.to(".purple-box", 
+    {
+    x:'100vh',
+    rotation: 360,
+    duration: 2,
+    delay: 3,
+    opacity: 0,
+},)
+gsap.to('.purple-box', {
+    duration:2.5,
+    ease: "power1.out",
+    x: "400%"
+    });
